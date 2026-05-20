@@ -1,9 +1,11 @@
 title: Save System Pro Documentation
 description: Complete professional documentation site for Ultimate Save System Pro, the definitive AES-128 encrypted key-value slot save system by DecNet Games.
-theme: just-the-docs
 
 # Enable GitHub Pages remote theme compatibility to avoid missing gem build errors
 remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
 
 url: "https://decnet-games.github.io"
 baseurl: "/SaveSystemPro-Doc"
